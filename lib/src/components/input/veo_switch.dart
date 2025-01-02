@@ -53,7 +53,6 @@ class VeoSwitch extends StatelessWidget {
                 child: Stack(
                   alignment: Alignment.center,
                   children: [
-                    // Background
                     AnimatedContainer(
                       duration: _animationDuration,
                       width: _switchWidth,
@@ -65,7 +64,6 @@ class VeoSwitch extends StatelessWidget {
                             : Colors.grey.withOpacity(0.3),
                       ),
                     ),
-                    // Knob
                     AnimatedAlign(
                       duration: _animationDuration,
                       curve: Curves.easeInOut,

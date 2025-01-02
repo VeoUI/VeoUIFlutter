@@ -16,7 +16,7 @@ class VeoBannerStyle {
   });
 
   static const VeoBannerStyle standard = VeoBannerStyle(
-    backgroundColor: Color(0x662196F3), // blue.opacity(0.4)
+    backgroundColor: Color(0x662196F3),
     foregroundColor: Colors.white,
     cornerRadius: 12,
     textStyle: TextStyle(fontSize: 14),

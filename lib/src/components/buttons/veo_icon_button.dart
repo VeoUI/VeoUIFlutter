@@ -18,7 +18,7 @@ class VeoIconButtonStyle {
   });
 
   static const VeoIconButtonStyle standard = VeoIconButtonStyle(
-    backgroundColor: Color(0x33FFFFFF), // white.opacity(0.2)
+    backgroundColor: Color(0x33FFFFFF),
     foregroundColor: Colors.white,
     cornerRadius: 15,
     textStyle: TextStyle(fontSize: 16),

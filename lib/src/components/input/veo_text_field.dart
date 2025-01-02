@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
+import '../../../veoui.dart';
+
 class VeoTextField extends StatefulWidget {
   final String text;
   final ValueChanged<String> onChanged;
@@ -91,14 +93,16 @@ class _VeoTextFieldState extends State<VeoTextField> {
                   controller: _controller,
                   obscureText: widget.isSecure,
                   keyboardType: widget.keyboardType,
-                  style: const TextStyle(
+                  style: TextStyle(
+                    fontFamily: VeoUI.mainFont,
                     color: Colors.white,
-                    fontSize: 14, // Equivalent to caption1
+                    fontSize: 14,
                   ),
                   decoration: InputDecoration(
                     border: InputBorder.none,
                     hintText: widget.placeholder,
                     hintStyle: TextStyle(
+                      fontFamily: VeoUI.mainFont,
                       color: Colors.white.withOpacity(0.7),
                       fontSize: 14,
                     ),
@@ -133,7 +137,8 @@ class _VeoTextFieldState extends State<VeoTextField> {
             child: Text(
               'Invalid input',
               style: TextStyle(
-                color: Colors.red,
+                fontFamily: VeoUI.mainFont,
+                color: VeoUI.dangerColor,
                 fontSize: 14,
               ),
             ),
