@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../../../veoui.dart';
+
 class VeoIconButtonStyle {
   final Color backgroundColor;
   final Color foregroundColor;
@@ -69,9 +71,12 @@ class VeoIconButton extends StatelessWidget {
                 const SizedBox(width: 8),
                 Text(
                   title,
-                  style: style.textStyle.copyWith(
-                    color: style.foregroundColor,
-                  ),
+                  style: TextStyle(
+                    fontFamily: VeoUI.mainFont,
+                    color: Colors.white,
+                    fontSize: 24,
+                    fontWeight: FontWeight.w500,
+                  )
                 ),
               ],
             ),

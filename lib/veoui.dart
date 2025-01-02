@@ -37,3 +37,6 @@ export 'src/components/feedback/veo_info_banner.dart';
 export 'src/components/screens/veo_splash.dart';
 export 'src/components/screens/veo_onboarding.dart';
 export 'src/components/screens/veo_login.dart';
+export 'src/components/screens/veo_register.dart';
+export 'src/components/screens/veo_reset_password.dart';
+export 'src/components/screens/veo_profile.dart';
