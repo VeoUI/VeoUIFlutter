@@ -1,3 +1,4 @@
-## 0.0.1
+## 0.9.0
 
-* TODO: Describe initial release.
+* Initial release
+* Add some basic UI components
